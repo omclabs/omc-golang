@@ -1,0 +1,5 @@
+local:
+  dialect: postgres
+  datasource: host=localhost dbname=dbdev user=userpg password=passwordpg sslmode=disable port=7090
+  dir: files
+  table: migrations
